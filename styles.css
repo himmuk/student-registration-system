@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+}
+header{
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form label{
+    margin-top: 10px;
+    color: #333;
+}
+form input{
+    margin-top: 8px;
+    padding: 10px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+}
+form button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+form button:hover{
+   background-color: #45a049;
+}
+
+table {
+    width: 100%;
+     border-collapse: collapse; 
+    margin-top: 15px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; 
+}
+th {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+td button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color: #ddd; 
+}
+
+#studentRecords {
+    margin-top: 40px;
+}
